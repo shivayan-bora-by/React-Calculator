@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Work in progress:
+The dynamic update of the display is something that I need to look at a later point in time, toggling the extra scientific functions and light-dark theme toggle wasn't a problem but since we don't get to use any other libraries, the calculation part needs to be checked, I had the idea of using a stack and pushing and popping individual input values but couldn't solve it in time. Tried using a reducer so that I don't write the complex logic in the main component. This needs to be checked with a fresh set of eyes. The dynamic update without clicking on the equal button was difficult. As we had to remember both the operator and the previous two numbers, because of which the usage of Stack came in my mind.
+
 ## Available Scripts
 
 In the project directory, you can run:
